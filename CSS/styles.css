@@ -1,0 +1,289 @@
+@media (min-width: 800px) {
+body{
+    background-color: 	#F8F8F8;
+    margin: 10em;
+    font-size: small;
+}
+
+#conversor{
+background-color: #C8C8C8; 
+border-radius: 0.45em;
+margin: 10% 25%;     
+}
+
+#cantidadDinero{
+    display: inline-flex;
+}
+
+#moneda1{
+     display: flex; 
+}
+
+#moneda2{
+    display: flex; 
+}
+
+#convertidor{
+    cursor: pointer;
+    display: inline-flex;
+}
+
+#div1{
+    display: inline-flex;
+}
+
+#footer{
+    text-align: center;
+    font-size:large;
+    position: absolute;
+    bottom: 0;
+    left: 30vw;
+    right: 30vw;
+}
+
+header{
+    text-align: center;
+    font-size:xx-large;
+}
+
+img{
+    margin: 0.5em;
+    height: 15%;
+    width: 15%; 
+}
+
+#imageConversor{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+input{
+    border-radius: 0.25em;
+}
+
+option{
+    border-radius: 0.25em;
+}
+
+#indicacionAlerta{
+background-color: salmon;
+color:white;
+border-radius: 0.25em;
+font-size: 250%;
+}
+
+li{
+    background-color: whitesmoke;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    list-style: none;
+    border: 1px solid gray;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+.selectoresMoneda{
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+/*//////////////////////////////////////////////////////////////////*/
+@media (min-width:600px) and (max-width: 800px) {
+    body{
+        background-color: 	#F8F8F8;
+        margin: 0em;
+        font-size: small;
+    }
+    
+    #conversor{
+    background-color: #C8C8C8; 
+    border-radius: 0.45em;
+    margin: 10% 5%;     
+    }
+    
+    #cantidadDinero{
+        display: inline-flex;
+    }
+    
+    #moneda1{
+         display: flex; 
+    }
+    
+    #moneda2{
+        display: flex; 
+    }
+    
+    #convertidor{
+        cursor: pointer;
+        display: inline-flex;
+    }
+    
+    #div1{
+        display: inline-flex;
+    }
+    
+    footer{
+        text-align: center;
+        font-size: medium;
+        position: absolute;
+        bottom: 0;
+        left: 30vw;
+        right: 30vw;
+    }
+
+    header{
+        text-align: center;
+        font-size: x-large;
+
+    }
+    
+    img{
+        margin: 0.5em;
+        height: 15%;
+        width: 15%; 
+    }
+    
+    #imageConversor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    input{
+        border-radius: 0.25em;
+    }
+    
+    option{
+        border-radius: 0.25em;
+    }
+    
+    #indicacionAlerta{
+    background-color: salmon;
+    color:white;
+    border-radius: 0.25em;
+    font-size: 250%;
+    }
+    
+    li{
+        background-color: whitesmoke;
+        margin: 0.5em;
+        padding: 0.5em;
+        border-radius: 0.25em;
+        list-style: none;
+        border: 1px solid gray;
+    }
+    
+    li:hover{
+        font-weight: bold;
+    }
+    
+    .selectoresMoneda{
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+/*//////////////////////////////////////////////////////////////////*/
+@media (max-width: 600px) {
+
+    body{
+        background-color: 	#F8F8F8;
+        margin: 0em;
+        font-size: small;
+    }
+    
+    #conversor{
+    background-color: #C8C8C8; 
+    border-radius: 0.45em;
+    margin: 10% 5%;     
+    }
+    
+    #cantidadDinero{
+        display: inline-flex;
+    }
+    
+    #moneda1{
+         display: flex; 
+    }
+    
+    #moneda2{
+        display: flex; 
+    }
+    
+    #convertidor{
+        cursor: pointer;
+        display: inline-flex;
+    }
+    
+    #div1{
+        display: inline-flex;
+    }
+
+    footer{
+        text-align: center;
+        font-size: small;
+        position: absolute;
+        bottom: 0;
+        left: 30vw;
+        right: 30vw;
+    }
+    
+    header{
+        text-align: center;
+        font-size: larger;
+    }
+    
+    img{
+        margin: 0.5em;
+        height: 15%;
+        width: 15%; 
+    }
+    
+    #imageConversor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    input{
+        border-radius: 0.25em;
+    }
+    
+    option{
+        border-radius: 0.25em;
+    }
+    
+    #indicacionAlerta{
+    background-color: salmon;
+    color:white;
+    border-radius: 0.25em;
+    font-size: 250%;
+    }
+    
+    li{
+        background-color: whitesmoke;
+        margin: 0.5em;
+        padding: 0.5em;
+        border-radius: 0.25em;
+        list-style: none;
+        border: 1px solid gray;
+    }
+    
+    li:hover{
+        font-weight: bold;
+    }
+    
+    .selectoresMoneda{
+        margin: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+}

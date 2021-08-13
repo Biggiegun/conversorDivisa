@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Conversor de Divisas</title>
+</head>
+<body>
+    <header>CONVERSOR DE DIVISAS</header>
+    <div id="conversor">
+        <div id="imageConversor">
+        <img src="images/cambio-de-divisas.png" alt="imagen_divisa">
+        </div>
+        <div class="selectoresMoneda">
+        <input type="text" name="cantidadDinero" id="cantidadDinero" placeholder="Cantidad de Dinero:">
+        </div>
+        <div class="selectoresMoneda">
+        <select name="select" id="moneda1">
+            <option value="default" selected disabled="disabled">Elige tu moneda</option>
+            <option value="dolar">Dolar</option>
+            <option value="pesoMexicano">Peso Mexicano</option>
+            <option value="pesoColombiano">Peso Colombiano</option>
+            <option value="euro">Euro</option>
+            <option value="libraEsterlina">Libra Esterlina</option>
+        </select>
+        <select name="select" id="moneda2">
+                <option value="default" selected disabled="disabled">Elige tu moneda</option>
+                <option value="dolar">Dolar</option>
+                <option value="pesoMexicano">Peso Mexicano</option>
+                <option value="pesoColombiano">Peso Colombiano</option>
+                <option value="euro">Euro</option>
+                <option value="libraEsterlina">Libra Esterlina</option>
+        </select>
+        </div>
+        <div class="selectoresMoneda">
+        <button id="convertidor">Convertir</button>
+        <div id="div1">
+            <ul>
+                <li>conversión #1</li>
+                <li>conversión #2</li>
+            </ul>
+        </div>
+        <div id="div2"></div>
+        </div>
+
+    </div>
+    <div id="footer">    
+        <footer> Copyright (c) 2010 - Valores & Servicios</footer>
+    </div>
+    <script type="text/javascript" src="Script/main.js"></script>
+</body>
+</html>
